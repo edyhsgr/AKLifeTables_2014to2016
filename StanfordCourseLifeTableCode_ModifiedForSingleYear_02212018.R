@@ -22,7 +22,7 @@
 #STEP 1: Read in and review the population and death data
 ##############################################################################################################################
 
-DeathsAndPopulation<-read.table(file="C:/Users/brocejh/Desktop/DeathsAndPopulation_AK2014to2016InputsSingleYear.csv",header=TRUE,sep=",")
+DeathsAndPopulation<-read.table(file="https://raw.githubusercontent.com/edyhsgr/AKLifeTables_2014to2016/master/DeathsAndPopulation_AK2014to2016InputsSingleYear.csv",header=TRUE,sep=",")
 DeathsAndPopulation
 
 ##############################################################################################################################

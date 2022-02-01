@@ -86,6 +86,8 @@ LifeTable_F
 LifeTable_M<-life.table(x,nMxMale)
 LifeTable_M
 
-write.table(LifeTable_T, file="C:/Users/brocejh/Desktop/AbridgedLifeTableTotal_AK2014to2016Output.csv", sep=",", row.names=FALSE)
-write.table(LifeTable_F, file="C:/Users/brocejh/Desktop/AbridgedLifeTableFemale_AK2014to2016Output.csv", sep=",", row.names=FALSE)
-write.table(LifeTable_M, file="C:/Users/brocejh/Desktop/AbridgedLifeTableMale_AK2014to2016Output.csv", sep=",", row.names=FALSE)
+write.table(LifeTable_T, file="LifeTableTotal_AK2014to2016Output.csv", sep=",", row.names=FALSE)
+write.table(LifeTable_F, file="LifeTableFemale_AK2014to2016Output.csv", sep=",", row.names=FALSE)
+write.table(LifeTable_M, file="LifeTableMale_AK2014to2016Output.csv", sep=",", row.names=FALSE)
+
+
